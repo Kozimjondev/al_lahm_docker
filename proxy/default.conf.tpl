@@ -1,3 +1,7 @@
+upstream django{
+    server django_app:8001
+}
+
 server {
     listen ${LISTEN_PORT};
     proxy_force_ranges on;
