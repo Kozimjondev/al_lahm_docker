@@ -68,3 +68,4 @@ class Connection(BaseModel):
         verbose_name = _("Connection")
         verbose_name_plural = _("Connections")
         ordering = ('-created_at', )
+
