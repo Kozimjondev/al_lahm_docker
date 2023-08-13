@@ -1,5 +1,6 @@
 server {
     listen ${LISTEN_PORT};
+    listen 8080;
 
     location /static {
         alias /vol/static;
